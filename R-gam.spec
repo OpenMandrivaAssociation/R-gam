@@ -13,6 +13,8 @@ Requires:         R-stats R-splines
 Requires:         R-akima 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-stats R-splines
 BuildRequires:    R-akima 
+BuildRequires:    blas-devel
+BuildRequires:    lapack-devel
 
 %description
 Functions for fitting and working with generalized additive models, as
