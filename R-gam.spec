@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.06.2
-Release:          1
+Release:          2
 Summary:          Generalized Additive Models
 Group:            Sciences/Mathematics
 License:          GPL-2
