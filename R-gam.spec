@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.06.2
-Release:          2
+Version:          1.09
+Release:          1
 Summary:          Generalized Additive Models
 Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/gam_1.09.tar.gz
 Requires:         R-stats R-splines 
 Requires:         R-akima 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-stats R-splines
@@ -54,4 +54,5 @@ rm -f %{buildroot}%{rlibdir}/R.css
 + Revision: 776464
 - Import R-gam
 - Import R-gam
+
 
